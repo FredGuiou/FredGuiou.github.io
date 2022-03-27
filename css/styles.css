@@ -1,7 +1,108 @@
-body{
-    background-color: lightslategray;
+/*************/
+/****BASE****/
+/***********/
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("fonts/Ubuntu-Regular.ttf") format("truetype");
 }
 
-h1{
-    color: antiquewhite;
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 117, 235);
+}
+
+
+/***********/
+/**HEADER**/
+/*********/
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.header_banner{
+    width: 98%;
+    height: 90%;
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.header_banner_title{
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-right: 10%;
+    font-family: "ubuntu";
+}
+
+.header_banner_subtitle{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 6%;
+    font-family: "ubuntu";
+}
+
+/***********/
+/***MAIN***/
+/*********/
+
+.main{
+    width: 100%;
+    height: 85%;
+    background-image: url(../Ressources/images/Main_background_picture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*************/
+/***FOOTER***/
+/***********/
+
+.footer{
+    width: 100%;
+    height: 5%;
+    background-color: chocolate;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    position: initial;
+}
+
+.footer_banner{
+    width: 98%;
+    height: 90%;
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+}
+
+.footer_banner_random_note{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: "ubuntu";
+    position: relative;
+    left: 5%;
+}
+
+.footer_banner_copyright{
+    font-family: "ubuntu";
+    position: relative;
+    left: 10%;
 }
