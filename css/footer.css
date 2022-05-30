@@ -11,6 +11,9 @@
     justify-content: center;
     align-content: space-around;
     position: initial;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 /********************/

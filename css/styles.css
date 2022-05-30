@@ -13,4 +13,5 @@ body{
     background-image: url(../Ressources/images/Network.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
