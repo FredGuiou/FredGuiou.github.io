@@ -2,51 +2,101 @@
 /**HEADER**/
 /*********/
 
-.header{
+.header {
     width: 100%;
-    height: 8%;
+    height: 20%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
 }
 
-.header_banner{
+
+
+
+/*******************/
+/**HEADER_BANNER**/
+/*****************/
+.header_banner {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.288);
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
 }
 
-.header_banner_left{
+
+
+
+/************************/
+/**HEADER_BANNER_LEFT**/
+/**********************/
+
+.header_banner_left {
     display: flex;
-    flex-direction: column;
-    align-items:center;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
-    width: 12%;
+    width: 15%;
     height: 100%;
 }
 
+.header_banner_left--pic_button {
+    width: 5em;
+    height: 5em;
+    border-radius: 2.5em;
+    background-image: url(../Ressources/images/Id_Pic.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid rgb(0, 183, 255);
+}
 
-.header_banner_center{
+.header_banner_left_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+}
+
+.header_banner_left_nav_link--Home {
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.header_banner_left_nav_link--Projects {
+    font-family: "ubuntu";
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+
+
+
+/*************************/
+/**HEADER_BANNER_CENTER**/
+/***********************/
+.header_banner_center {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
+    width: 50%;
 }
 
-.header_banner_center--title{
-    font-size: 3em;
+.header_banner_center--title {
+    font-size: 4em;
     text-transform: uppercase;
     color: aliceblue;
     margin-right: 10%;
     font-family: "ubuntu";
 }
 
-.header_banner_center--subtitle{
+.header_banner_center--subtitle {
     font-size: 1.5em;
     text-transform: uppercase;
     color: aliceblue;
@@ -54,13 +104,24 @@
     font-family: "ubuntu";
 }
 
-.header_banner_left_nav_link--Home{
-    font-family: "ubuntu";
-    text-transform: uppercase;
-    color: aliceblue;
+
+
+
+
+/*************************/
+/**HEADER_BANNER_RIGHT***/
+/***********************/
+
+.header_banner_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 12%;
+    height: 100%;
 }
 
-.header_banner_left_nav_link--Contact{
+.header_banner_right_nav_link--Video {
     font-family: "ubuntu";
     text-transform: uppercase;
     color: aliceblue;
