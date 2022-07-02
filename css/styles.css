@@ -10,9 +10,6 @@
 body{
     width: 100vw;
     min-height: 100vh;
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
-    
 }
 
 
@@ -43,11 +40,4 @@ body{
     }
     }
 
-
-/*This body_structure_container own the interface elements and set properties about it*/
-.body_structure_container{
-    width: 100vw;
-    height: 100vh;
-    /* position: absolute; */
-    top: 0px; left: 0px;
-}
+    

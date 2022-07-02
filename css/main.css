@@ -1,10 +1,24 @@
+/*****************************************/
+/************CONTENT CONTAINER************/
+/*****************************************/
+
+/*This content_container own the interface elements and set properties about it*/
+.content-container {
+    height: 70vh;
+    width: 100vw;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+
+
 /***********/
 /***MAIN***/
 /*********/
 
 .main{
     width: 100%;
-    height: 75%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -13,10 +27,10 @@
 
 
 /****************************/
-/***MAIN BANNER CONTAINER***/
+/***MAIN ELEMENT CONTAINER***/
 /**************************/
 
-.main_banner_container{
+.main_element_container{
     width: 100%;
     height: 100%;
     display: flex;
@@ -26,7 +40,7 @@
 }
 
 
-.main_banner_container_skills{
+.main_element_container_skills{
     background-color: rgba(0, 0, 0, 0.288);;
     width:70%;
     height: 95%;
@@ -35,7 +49,7 @@
 
 
 
-.main_banner_container_infos{
+.main_element_container_infos{
     background-color: rgba(0, 0, 0, 0.288);;
     width: 20%;
     height: 95%;
@@ -47,15 +61,7 @@
 /***MAIN BANNER PROJECTS****/
 /**************************/
 
-.main_banner_projects{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-}
-
-.main_banner_projects_lists{
+.main_element_projects_lists{
     background-color: rgba(0, 0, 0, 0.288);
     width: 95%;
     height: 95%;
@@ -64,12 +70,3 @@
 }
 
 
-/*****************************************/
-/***Container moitié basse de la page ****/
-/*****************************************/
-.content-container {
-    height: 70vh;
-    width: 100vw;
-    overflow-y: scroll;
-    position: fixed;
-}

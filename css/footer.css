@@ -18,9 +18,9 @@
 }
 
 /********************/
-/***FOOTER BANNER***/
+/***FOOTER ELEMENT***/
 /******************/
-.footer_banner{
+.footer_element{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.288);
@@ -30,7 +30,7 @@
     justify-content:center;
 }
 
-.footer_banner_random_note{
+.footer_element_random_note{
     padding-left: 20%;
     padding-right: 20%;
     font-family: "ubuntu";
@@ -39,7 +39,7 @@
     left: 5%;
 }
 
-.footer_banner_copyright{
+.footer_element_copyright{
     font-family: "ubuntu";
     color: aliceblue;
     position: relative;
