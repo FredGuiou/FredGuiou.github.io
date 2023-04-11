@@ -2,6 +2,13 @@
  /************CONTENT CONTAINER************/
 /*****************************************/
 
+.wip {
+    color: aliceblue;
+    font-size: 3rem;
+    width: 45%;
+}
+
+
 /*This content_container own the interface elements and set properties about it*/
 .content-container {
     height: 70vh;
